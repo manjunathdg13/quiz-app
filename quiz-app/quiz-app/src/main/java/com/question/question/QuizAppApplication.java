@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 //@EnableFeignClients
-public class QuizAppApplication {
+public class QuestionAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuizAppApplication.class, args);
+		SpringApplication.run(QuestionAppApplication.class, args);
 	}
 
 }

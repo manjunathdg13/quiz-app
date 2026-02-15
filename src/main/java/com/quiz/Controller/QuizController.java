@@ -20,7 +20,7 @@ import java.util.Optional;
 public class QuizController {
 
     @Autowired
-    QuizService quizService;
+    QuizService  quizService;
 
     @PostMapping("create")
     public ResponseEntity<String> createQuiz(@RequestBody QuizDTO quizDto){

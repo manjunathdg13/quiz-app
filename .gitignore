@@ -1,0 +1,38 @@
+/target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+.DS_Store
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+/mvnw.cmd
+/mvnw
+# Maven wrapper jar if present
+.mvn/wrapper/maven-wrapper.jar
+# OS files
+Thumbs.db
+
+# IntelliJ
+out/
+
+# Mac
+*.DS_Store
+
+# Eclipse
+.metadata/
+
+# Spring Boot specific
+spring-boot-devtools.properties
+
+# Generated jar
+*.jar
+
+# node modules if any
+node_modules/
+
